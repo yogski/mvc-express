@@ -1,0 +1,26 @@
+{
+  "name": "mvc-express",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Yogi Saputro",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "faker": "^5.1.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
