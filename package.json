@@ -4,7 +4,8 @@
   "private": true,
   "author": "Yogi Saputro",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "git-push": "git add --all && git commit && git push origin main"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
