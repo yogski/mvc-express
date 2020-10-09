@@ -73,6 +73,7 @@ exports.register = async (req, res) => {
       password: await bcrypt.hash(req.body.password, 12),
       is_active: true,
       token: '',
+      role: 'PlayerUser',
       createdAt: new Date(),
       updatedAt: new Date()    
     });
